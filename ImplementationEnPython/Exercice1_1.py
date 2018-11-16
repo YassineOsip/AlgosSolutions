@@ -1,4 +1,5 @@
-while True:
+bool = True
+while bool:
     sexe = input("le Sexe : ")
     lage = int(input("l'age : "))
     if sexe == "homme" and lage >= 20 :
