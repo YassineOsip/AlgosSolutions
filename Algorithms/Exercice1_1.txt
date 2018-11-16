@@ -1,0 +1,18 @@
+Nom Algo : Exercice 1.1
+Entrée : sexe , lage 
+sortie : resulta 
+varibles : sexe , lage , resulta
+
+Début :
+	Ecrire("Le Sexe : ")
+	lire(sexe)
+	Ecrire("Lage : ")
+	lire(lage)
+	si sexe == homme et lage >= 20 ; alors
+		Ecrire("payé limpot ")
+	sinon si sexe == femme et lage >= 18 et lage <= 35 ; alors
+		Ecrire("payé limpot")
+	sinon :
+		Ecrire("ne payé pas limpot")
+Fin
+	
