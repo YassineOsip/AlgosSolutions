@@ -1,0 +1,6 @@
+Nom ? "Jokers"
+Prénom ? "Midnight"
+Tel ? "0348946532"
+Mail ? "allstars@rockandroll.com"
+Truc ? Nom & Prénom & Tel & Mail
+EcrireFichier 3, Truc

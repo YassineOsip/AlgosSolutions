@@ -1,0 +1,25 @@
+Nom Algo : Exercice 1.4
+P ? 0
+Si Non(C1) Alors
+  P ? P + 1
+FinSi
+Si Non(C2) Alors
+  P ? P + 1
+FinSi
+P ? P + acc
+Si P < 3 et C3 Alors
+  P ? P - 1
+FinSi
+Si P = -1 Alors
+  situ ? "Bleu"
+SinonSi P = 0 Alors
+  situ ? "Vert"
+SinonSi P = 1 Alors
+  situ ? "Orange"
+SinonSi P = 2 Alors
+  situ ? "Rouge"
+Sinon
+  situ ? "Refusé"
+FinSi
+Ecrire "Votre situation : ", situ
+Fin

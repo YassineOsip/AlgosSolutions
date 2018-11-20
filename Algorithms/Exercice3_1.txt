@@ -1,0 +1,7 @@
+Tableau Truc(6) en Numérique
+Variable i en Numérique
+Debut
+Pour i ? 0 à 6
+  Truc(i) ? 0
+i Suivant
+Fin

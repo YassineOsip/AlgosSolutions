@@ -1,0 +1,9 @@
+Variables N, i en Entier
+Debut
+Ecrire "Entrez un nombre : "
+Lire N
+Ecrire "Les 10 nombres suivants sont : "
+Pour i ? N + 1 à N + 10
+  Ecrire i
+i Suivant
+Fin

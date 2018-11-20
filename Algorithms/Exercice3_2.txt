@@ -1,0 +1,9 @@
+Tableau Truc(5) en Caractère
+Debut
+Truc(0) ? "a"
+Truc(1) ? "e"
+Truc(2) ? "i"
+Truc(3) ? "o"
+Truc(4) ? "u"
+Truc(5) ? "y"
+Fin

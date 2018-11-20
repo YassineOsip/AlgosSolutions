@@ -1,0 +1,21 @@
+Début
+(...)
+Afini ? faux
+Bfini ? faux
+ia ? 0
+ib ? 0
+ic ? -1
+TantQue Non(Afini) ou Non(Bfini)
+   ic ? ic + 1
+   Redim C(ic)
+   Si Afini ou A(ia)>B(ib) Alors
+      C(ic) ? B(ib)
+      ib ? ib + 1
+      Bfini ? ib > n
+   Sinon
+      C(ic) ? A(ia)
+      ia ? ia + 1
+      Afini ? ia > m
+   FinSi
+FinTantQue
+Fin

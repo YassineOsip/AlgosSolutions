@@ -1,0 +1,9 @@
+Variable Truc en Caractère
+Début
+Ouvrir "Exemple.txt" sur 5 en Lecture
+Tantque Non EOF(5)
+  LireFichier 5, Truc
+  …
+FinTantQue
+Fermer 5
+Fin

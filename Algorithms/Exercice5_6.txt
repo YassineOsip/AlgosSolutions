@@ -1,0 +1,15 @@
+Procédure TriTableau(T() en Numérique par Référence, n en Numérique par Valeur)
+Variables i, posmini, temp en Numérique
+Début
+Pour i ? 0 à n-2
+   posmini ? i
+   Pour j ? i + 1 à n-1
+      Si t(j) < t(posmini) Alors
+         posmini ? j
+      Finsi
+   j suivant
+   temp ? T(posmini)
+   T(posmini) ? T(i)
+   T(i) ? temp
+i suivant
+FinProcédure

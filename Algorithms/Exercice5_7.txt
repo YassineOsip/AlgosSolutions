@@ -1,0 +1,12 @@
+Fonction TableauCroissant(T() en Numérique, n en Numérique) en Booléen
+Variable i en Numérique
+Variable Flag en Booléen
+Début
+Flag ? Vrai
+i ? 0
+TantQue Flag et i < n-1
+   Flag ? T(i) < T(i+1)
+   i ? i+1
+FinTantQue
+Renvoyer Flag
+FinFonction

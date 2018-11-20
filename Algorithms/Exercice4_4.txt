@@ -1,0 +1,8 @@
+…
+Ecrire "Rang de la valeur à supprimer ?"
+Lire S
+Pour i ? S à N-2
+  T(i) ? T(i+1)
+i suivant
+Redim T(N–1)
+Fin

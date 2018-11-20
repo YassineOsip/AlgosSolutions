@@ -1,0 +1,14 @@
+Fonction Trouve(a en Caractère, b en Caractère) en Numérique
+Variable i en Numérique
+Début
+i ? 1
+TantQue i < Len(a) - Len(b) et b <> Mid(a, i, Len(b))
+  i ? i + 1
+FinTantQue
+Si b <> Mid(a, i, Len(b)) Alors
+  Renvoyer 0
+Sinon
+ 
+FinSi
+Renvoyer i
+FinFonction

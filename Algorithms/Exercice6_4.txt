@@ -1,0 +1,18 @@
+Tableaux Nom(), Prénom(), Tel(), Mail() en Caractère
+Début
+Ouvrir "Exemple.txt" sur 5 en Lecture
+i ? -1
+Tantque Non EOF(5)
+  LireFichier 5, Truc
+  i ? i + 1
+  Redim Nom(i)
+  Redim Prénom(i)
+  Redim Tel(i)
+  Redim Mail(i)
+  Nom(i) ? Mid(Truc, 1, 20)
+  Prénom(i) ? Mid(Truc, 21, 15)
+  Tel(i) ? Mid(Truc, 36, 10)
+  Mail(i) ? Mid(Truc, 46, 20)
+FinTantQue
+Fermer 5
+Fin

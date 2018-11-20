@@ -1,0 +1,10 @@
+Variables N, i, F en Entier
+Debut
+Ecrire "Entrez un nombre : "
+Lire N
+F ? 1
+Pour i ? 2 à N
+  F ? F * i
+i Suivant
+Ecrire "La factorielle est : ", F
+Fin

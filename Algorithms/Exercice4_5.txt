@@ -1,0 +1,23 @@
+Variables Sup, Inf, Comp en Entier
+Variables Fini en Booléen
+Début
+Ecrire "Entrez le mot à vérifier"
+Lire Mot
+Sup ? N - 1
+Inf ? 0
+Fini ? Faux
+TantQue Non Fini
+   Comp ? (Sup + Inf)/2
+Si Mot < Dico(Comp) Alors
+    Sup ? Comp - 1
+   Sinon
+    Inf ? Comp + 1
+  FinSi
+  Fini ? Mot = Dico(Comp) ou Sup < Inf
+FinTantQue
+Si Mot = Dico(Comp) Alors
+  Ecrire "le mot existe"
+Sinon
+  Ecrire "Il n'existe pas"
+Finsi
+Fin

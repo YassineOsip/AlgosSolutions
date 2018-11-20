@@ -1,0 +1,7 @@
+Tableau Notes(8) en Numérique
+Variable i en Numérique
+Pour i ? 0 à 8
+  Ecrire "Entrez la note numéro ", i + 1
+  Lire Notes(i)
+i Suivant
+Fin

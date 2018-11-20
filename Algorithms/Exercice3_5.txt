@@ -1,0 +1,10 @@
+Tableau N(6) en Numérique
+Variables i, k en Numérique
+Début
+N(0) ? 1
+Ecrire N(0)
+Pour k ? 1 à 6
+  N(k) ? N(k-1) + 2
+  Ecrire N(k)
+k Suivant
+Fin

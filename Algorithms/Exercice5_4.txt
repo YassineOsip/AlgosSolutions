@@ -1,0 +1,12 @@
+Fonction PurgeSimple(a en Caractère, b en Caractère) en Caractère
+Variable Sortie en Caractère
+Variable i en Numérique
+Début
+Sortie ? ''
+Pour i ? 1 à Len(a)
+   Si Mid(a, i, 1) <> b Alors
+      Sortie ? Sortie & Mid(a, i, 1)
+   FinSi
+i suivant
+Renvoyer Sortie
+FinFonction

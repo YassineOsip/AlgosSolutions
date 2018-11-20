@@ -1,0 +1,8 @@
+Variables Truc, Nom, Prénom, Tel, Mail en Caractères
+Début
+Ouvrir "Exemple.txt" sur 4 en Lecture
+LireFichier 4, Truc
+Nom ? Mid(Truc, 1, 20)
+Prénom ? Mid(Truc, 21, 15)
+Tel ? Mid(Truc, 36, 10)
+Mail ? Mid(Truc, 46, 20)

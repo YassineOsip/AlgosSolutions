@@ -1,0 +1,17 @@
+Structure Bottin
+Nom en Caractère * 20
+Prénom en Caractère * 15
+Tel en Caractère * 10
+Mail en Caractère * 20
+Fin Structure
+Tableau Mespotes() en Bottin
+Début
+Ouvrir "Exemple.txt" sur 3 en Lecture
+i ? -1
+Tantque Non EOF(3)
+   i ? i + 1
+   Redim Mespotes(i)
+   LireFichier 3, Mespotes(i)
+FinTantQue
+Fermer 3
+Fin

@@ -1,0 +1,11 @@
+Variable S en Numérique
+Tableau Notes(8) en Numérique
+Debut
+s ? 0
+Pour i ? 0 à 8
+  Ecrire "Entrez la note n° ", i + 1
+  Lire Notes(i)
+  s ? s + Notes(i)
+i Suivant
+Ecrire "Moyenne :", s/9
+Fin

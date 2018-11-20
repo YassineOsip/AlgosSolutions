@@ -1,0 +1,13 @@
+…
+Pour i ? 0 à N - 2
+  posmaxi = i
+  Pour j ? i + 1 à N - 1
+    Si t(j) > t(posmaxi) alors
+      posmaxi ? j
+    Finsi
+  j suivant
+  temp ? t(posmaxi)
+  t(posmaxi) ? t(i)
+  t(i) ? temp
+i suivant
+Fin

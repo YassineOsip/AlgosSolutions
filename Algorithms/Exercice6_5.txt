@@ -1,0 +1,3 @@
+Ouvrir "Exemple.txt" sur 3 en Ajout
+Variable Truc en Caractère
+Variables Nom*20, Prénom*15, Tel*10, Mail*20 en Caractère

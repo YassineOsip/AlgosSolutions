@@ -1,0 +1,12 @@
+Variables N, i, PG en Entier
+Debut
+PG ? 0
+Pour i ? 1 à 20
+  Ecrire "Entrez un nombre : "
+  Lire N
+  Si i = 1 ou N > PG Alors
+    PG ? N
+  FinSi
+i Suivant
+Ecrire "Le nombre le plus grand était : ", PG
+Fin

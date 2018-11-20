@@ -1,0 +1,3 @@
+ Fonction Sum(a, b, c, d, e) en Numérique
+  Renvoyer a + b + c + d + e
+FinFonction

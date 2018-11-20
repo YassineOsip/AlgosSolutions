@@ -1,0 +1,7 @@
+Procédure Inversion(X en Numérique par Référence, Y en Numérique par Référence)
+Variable Temp en Numérique
+Début
+Temp ? X
+X ? Y
+Y ? Temp
+FinProcédure

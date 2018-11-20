@@ -1,0 +1,8 @@
+Tableau Nb(5) en Numérique
+Variable i en Numérique
+Début
+Pour i ? 0 à 5
+  Nb(i) ? i * i
+  Ecrire Nb(i)
+i Suivant
+Fin
